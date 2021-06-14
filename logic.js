@@ -33,7 +33,7 @@ const calculate = () => {
         
         bill = Number(bill);
         if (bill<1)
-        throw 'Please enter Bill amount in positive integers only';
+        throw 'Please enter Bill amount in positive numbers only';
     }
     catch (err){
         alert(err);
