@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> This is tip_calculator</title>
+
+        <!-- including css file  -->
+        <link rel = 'stylesheet' href='css_file.css'>
+    </head>
+    <body>
+        <!-- body of html -->
+        <main>
+            <!-- this is the heading-->
+            <h1 class = 'heading1'> TIP CALCULATOR</h1>
+            <br>
+            <div>
+
+                <select class= 'lab2'id = 'tip_percent'>
+                    <option dissable selected> How was our service?</option>
+                    <option value = '40'> 6- Awesome</option>
+                    <option value = '30'> 5- Amaizing</option>
+                    <option value = '20'> 4- Great</option>
+                    <option value = '10'> 3- Good</option>
+                    <option value = '5'> 2- Average</option>
+                    <option value = '0'> 1- Terrible</option>
+                </select>
+                
+                <br>
+                <select class= 'lab2'  id = 'Tot_people' >
+                    <option dissable selected> Total number of people</option>
+                    <option value = '10'> 10</option>
+                    <option value = '9'> 9</option>
+                    <option value = '8'> 8</option>
+                    <option value = '7'> 7</option>
+                    <option value = '6'> 6</option>
+                    <option value = '5'> 5</option>
+                    <option value = '4'> 4</option>
+                    <option value = '3'> 3</option>
+                    <option value = '2'> 2</option>
+                    <option value = '1'> 1</option>
+                </select>
+                <br>
+                <input id = 'amount_of_bill' type='' name = 'text' placeholder="Bill Amount ( in $)" >
+                <br>
+               
+                <label class = 'lab1' >Tip Per person:</label>
+                <input type ='text' name = '' id = 'tip_per_person' placeholder=" Tip per person" disabled>
+                <br>
+                <label class = 'lab1' >Amount per Person:</label>
+                <input type='text' name = '' id = 'total_per_person' placeholder=" Amount per Person" disabled>
+                <br>
+                <button id = 'btn' onclick = 'calculate()' >Calculate</button>
+
+            </div>
+        </main>
+
+        <!-- including js file -->
+        <script src= 'logic.js'></script>
+    </body>
+</html>
