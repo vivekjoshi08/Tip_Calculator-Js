@@ -1,2 +1,1 @@
-# Grapecity_Assignment
-Tip_calci using Js
+#Tip_calci using Js
